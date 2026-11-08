@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   
-  <remote name="github" fetch="https://github.com/"/>
-  <remote name="gitlab" fetch="https://gitlab.com/"/>
+  <remote name="github-rudra" fetch="https://github.com/"/>
+  <remote name="gitlab-rudra" fetch="https://gitlab.com/"/>
   
   <!-- Cybert device, kernel, and vendor trees -->
-  <project path="device/motorola/cybert" name="Rudra0Panda/Cybert-Device" remote="github" revision="main" clone-depth="1000"/>
-  <project path="device/motorola/cybert-kernel" name="Rudra0Panda/android_device_cybert_kernel" remote="github" revision="main" clone-depth="1000"/>
-  <project path="vendor/motorola/cybert" name="rudranpan/android_vendor_motorola_cybert" remote="gitlab" revision="lineage-24" clone-depth="1000"/>
+  <project path="device/motorola/cybert" name="Rudra0Panda/Cybert-Device" remote="github-rudra" revision="main" clone-depth="1000"/>
+  <project path="device/motorola/cybert-kernel" name="Rudra0Panda/android_device_cybert_kernel" remote="github-rudra" revision="main" clone-depth="1000"/>
+  <project path="vendor/motorola/cybert" name="rudranpan/android_vendor_motorola_cybert" remote="gitlab-rudra" revision="lineage-24" clone-depth="1000"/>
 
   <!-- MediaTek and LineageOS hardware dependencies -->
   <project path="hardware/motorola" name="LineageOS/android_hardware_motorola" revision="lineage-24.0" groups="pdk" clone-depth="1000"/>
